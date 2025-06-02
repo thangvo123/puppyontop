@@ -27,7 +27,7 @@ getgenv().UserConfig = {
     AutoRollDice        = true,
     ["Super Ticket"]    = "Robot Claw",
     ["Use Super Ticket"] = true,
-    ["Season Challenges"] = true, -- false bc ss end 
+    ["Season Challenges"] = false, -- false bc ss end 
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
@@ -77,7 +77,7 @@ getgenv().UserConfig = {
         Enable = true,
         Note = "Puppy on top",
         ID = "1165842656958611546",
-        URL = "https://discord.com/api/webhooks/1312412159434817647/GKIQJFFXqdfzRR6S9HYEvm9yr-i2wO7Nn_F8OJi9DN-Ylz1lTWlsF-t5NKzP4tXyhxgR",
+        URL = "https://discord.com/api/webhooks/1311251398515626004/SMZF9yzSDdBh5YZr8shm7ZPVz4aPDU3E5SnPPKGvZyzWYCrEJLU2-3G9dUa0fEoHhS90",
         Rarity = {
             "Secret"
         }, -- General rarity filter
