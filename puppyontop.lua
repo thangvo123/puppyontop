@@ -27,7 +27,7 @@ getgenv().UserConfig = {
     AutoRollDice        = true,
     ["Super Ticket"]    = "Robot Claw",
     ["Use Super Ticket"] = true,
-    ["Season Challenges"] = false, -- false bc ss end 
+    ["Season Challenges"] = true, -- false bc ss end 
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
@@ -81,7 +81,7 @@ getgenv().UserConfig = {
         Rarity = {
             "Secret"
         }, -- General rarity filter
-        Legendary = "100m",
+        Legendary = "1000b",
         ["Special Pets"] = {"Monolith"}
     }
 }
