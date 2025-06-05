@@ -56,13 +56,13 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Fruit Egg"},
+        Targets = {"Fossil Egg"},
         Luck = 5 -- dont change
     },
-    ["Secret Bounty"] = {"Everblaze"},
+    ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "Fruit Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
-    ["Replace FindDuck"] = "Fruit Egg",
+    FindDuck = "Fossil Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    ["Replace FindDuck"] = "Fossil Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
