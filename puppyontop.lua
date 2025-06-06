@@ -31,7 +31,6 @@ getgenv().UserConfig = {
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
-    ["Force X2"] = true,
     ["Royal Chest"] = true,
     ["Dice Chest"] = true, -- default is false if not set
     ["Summer Shop"] = true, -- default is true if not set
@@ -86,4 +85,4 @@ getgenv().UserConfig = {
         ["Special Pets"] = {"Monolith"}
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/be2aec50f03e813b9a4b9a35eefba21f.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ccbddd87670e37be6aa0dbf793748a94.lua"))()
