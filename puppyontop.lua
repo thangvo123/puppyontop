@@ -35,7 +35,7 @@ getgenv().UserConfig = {
     ["Royal Chest"] = true,
     ["Dice Chest"] = true, -- default is false if not set
     ["Summer Shop"] = true, -- default is true if not set
-    ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
+    ["Mastery"] = {Pets = 15,Buffs = 15,Shops = 10},
     ["Craft Potions"] = {
         Enable = false,
         MinGems = "100k",
