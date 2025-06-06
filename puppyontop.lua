@@ -59,7 +59,7 @@ getgenv().UserConfig = {
         Targets = {"Fossil Egg"},
         Luck = 5 -- dont change
     },
-    ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
+    ["Secret Bounty"] = {"Everblaze"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
     FindDuck = "Fossil Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
     ["Replace FindDuck"] = "Fossil Egg",
