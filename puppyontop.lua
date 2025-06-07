@@ -15,7 +15,7 @@ task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/793674f6bc0a80e1c748fd75994d1607.lua"))()
 end)
 task.wait(120)
-setfpscap(3)
+setfpscap(5)
 wait(15)
 script_key = getgenv().DuckHub;
 getgenv().UserConfig = {
@@ -28,6 +28,7 @@ getgenv().UserConfig = {
     ["Super Ticket"]    = "Robot Claw",
     ["Use Super Ticket"] = true,
     ["Season Challenges"] = false, -- false bc ss end 
+    ["Force X2"] = true,
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
