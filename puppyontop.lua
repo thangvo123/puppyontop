@@ -32,10 +32,10 @@ getgenv().UserConfig = {
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
-    ["Force X2"] = true,
     ["Royal Chest"] = true,
     ["Dice Chest"] = true, -- default is false if not set
     ["Summer Shop"] = true, -- default is true if not set
+    ["Force X2"] = true,
     ["Mastery"] = {Pets = 15,Buffs = 15,Shops = 10},
     ["Craft Potions"] = {
         Enable = false,
@@ -63,6 +63,8 @@ getgenv().UserConfig = {
     },
     ["Secret Bounty"] = {"Everblaze"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
+    ["Skip Event"] = "All", -- All: skip event seashells, Jungle: skip new island event seashells, None: not skip event seashells
+    ["Light and Dark"]  = "Both", -- Both: hatch Light and Dark, Light Egg: only hatch if available, Dark Egg: only hatch if available
     FindDuck = "Fossil Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
     ["Replace FindDuck"] = "Fossil Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
