@@ -15,7 +15,7 @@ task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/793674f6bc0a80e1c748fd75994d1607.lua"))()
 end)
 task.wait(120)
-setfpscap(5)
+setfpscap(4)
 wait(15)
 script_key = getgenv().DuckHub;
 getgenv().UserConfig = {
