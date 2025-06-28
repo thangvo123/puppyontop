@@ -34,6 +34,10 @@ getgenv().Config = {
             ["Place"] = true,
             ["Priority"] = 5
         },
+        ["Oasis Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 6
+        },
         ["Anti Bee Egg"] = {
             ["Place"] = true,
             ["Priority"] = 1
@@ -50,6 +54,11 @@ getgenv().Config = {
         ["Paradise Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
+            ["Priority"] = 3
+        },
+        ["Bee Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = false,
             ["Priority"] = 3
         }
     },
