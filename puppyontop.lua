@@ -8,7 +8,7 @@ getgenv().Config = {
         ["Anti Bee Egg"] = true
     },
     ["Dont Open Pack"] = false,
-    ["Dont Use Flower Seed Pack"] = false, -- If u Enable Crafters Seed Pack pls enable this
+    ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
     ["Seed"] = {
         ["Strawberry"] = 44,
         ["Blueberry"] = 44,
@@ -26,6 +26,7 @@ getgenv().Config = {
         ["Watermelon"] = 44,
         ["Kiwi"] = 44
     },
+
     ["FPS"] = 3,
     ["Egg"] = {
         ["Mythical Egg"] = {
@@ -52,16 +53,13 @@ getgenv().Config = {
             ["Priority"] = 3
         }
     },
-    ["Honey Item"] = {
-        ["Nectarine"] = false,
-        ["Flower Seed Pack"] = true,
-        ["Honey Sprinkler"] = false,
-        ["Bee Egg"] = true,
-        ["Pollen Radar"] = false,
-        ["Nectar Staff"] = false,
-        ["Nectarshade"] = false,
-        ["Lavender"] = false,
-        ["Hive Fruit"] = false
+    ["SummerEvent"] = {
+        ["Traveler's Fruit"] = false,
+        ["Summer Seed Pack"] = false,
+        ["Hamster"] = true,
+        ["Oasis Egg"] = true,
+        ["Delphinium"] = false,
+        ["Lily of the Valley"] = false
     },
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
@@ -72,12 +70,14 @@ getgenv().Config = {
         ["Godly Sprinkler"] = true
     },
     ["Plant Candy"] = false,
-    ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Disco Bee", "Butterfly", "Mimic Octopus"},
+    ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
+                       "Meerkat", "Sand Snake", "Axolotl", "Fennec Fox", "Hyacinth Macaw"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot"}
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot"}
     },
     ["Url"] = "", -- Webhook 
+
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
     ["Note"] = "Cyndral Hub",
@@ -89,22 +89,27 @@ getgenv().Config = {
             ["Ostrich"] = true,
             ["Blood Kiwi"] = true
         },
+
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
-                                                    "Butterfly", "Mimic Octopus"}
+                                                    "Butterfly", "Mimic Octopus", "Meerkat", "Sand Snake", "Axolotl",
+                                                    "Fennec Fox", "Hyacinth Macaw"}
         },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus"}
+        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
+                               "Mimic Octopus", "Meerkat", "Sand Snake", "Axolotl", "Fennec Fox", "Hyacinth Macaw"}
     },
     ["Webhook Mode"] = {
         ["Enable Send Pet Weight"] = false,
         ["Weight"] = 10 -- if Weight >= 10 they will send wh
     },
     ["Rejoin Mode"] = {
+        ["Auto Rejoin When Error Module Egg"] = true,
         ["Auto rejoin on script update"] = true,
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
+    ["Limit Tree"] = 400,
     ["Mutation Skips"] = { -- Skip Havest
         ["Pollinated"] = false,
         ["Disco"] = false,
