@@ -31,8 +31,8 @@ getgenv().Config = {
     ["FPS"] = 3,
     ["Egg"] = {
         ["Mythical Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
+            ["Buy"] = false,
+            ["Place"] = false,
             ["Priority"] = 5
         },
         ["Oasis Egg"] = {
