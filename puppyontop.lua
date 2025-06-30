@@ -9,7 +9,8 @@ getgenv().Config = {
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
-    ["Seed"] = {
+    ["Mode Plant"] = "Auto", -- "Custom"
+    ["Seed"] = { -- Seed Plant Custom
         ["Strawberry"] = 44,
         ["Blueberry"] = 44,
         ["Tomato"] = 44,
@@ -26,7 +27,7 @@ getgenv().Config = {
         ["Watermelon"] = 44,
         ["Kiwi"] = 44
     },
-
+    ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["FPS"] = 3,
     ["Egg"] = {
         ["Mythical Egg"] = {
@@ -80,7 +81,7 @@ getgenv().Config = {
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Meerkat", "Sand Snake", "Axolotl", "Fennec Fox", "Hyacinth Macaw"},
+                       "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot"}
@@ -98,15 +99,16 @@ getgenv().Config = {
             ["Ostrich"] = true,
             ["Blood Kiwi"] = true
         },
-
+        ["Max Slot Pet To Sell"] = 1, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
-                                                    "Butterfly", "Mimic Octopus", "Meerkat", "Sand Snake", "Axolotl",
-                                                    "Fennec Fox", "Hyacinth Macaw"}
+                                                    "Butterfly", "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox",
+                                                    "Axolotl", "Hyacinth Macaw", "Hamster"}
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Meerkat", "Sand Snake", "Axolotl", "Fennec Fox", "Hyacinth Macaw"}
+                               "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+                               "Hamster"}
     },
     ["Webhook Mode"] = {
         ["Enable Send Pet Weight"] = false,
