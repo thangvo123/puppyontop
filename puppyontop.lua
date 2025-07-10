@@ -10,6 +10,7 @@ getgenv().Config = {
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
     ["Mode Plant"] = "Auto", -- "Custom"
+
     ["Seed"] = { -- Seed Plant Custom
         ["Strawberry"] = 44,
         ["Blueberry"] = 44,
@@ -28,7 +29,6 @@ getgenv().Config = {
         ["Kiwi"] = 44
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
-    ["FPS"] = 3,
     ["Egg"] = {
         ["Mythical Egg"] = {
             ["Buy"] = true,
@@ -67,15 +67,7 @@ getgenv().Config = {
             ["Priority"] = 1
         }
     },
-    ["SummerEvent"] = {
-        ["Traveler's Fruit"] = false,
-        ["Summer Seed Pack"] = false,
-        ["Hamster"] = true,
-        ["Oasis Egg"] = true,
-        ["Delphinium"] = false,
-        ["Lily of the Valley"] = false
-    },
-    
+
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
         ["Buy Sprinkler"] = true,
@@ -112,6 +104,7 @@ getgenv().Config = {
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
             ["Red Fox"] = true,
+            ["Meerkat"] = true,
             ["Chicken"] = true
         },
         ["Max Slot Pet To Sell"] = 1, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
@@ -137,25 +130,7 @@ getgenv().Config = {
         ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 250,
-    ["Mutation Skips"] = { -- Skip Havest
-        ["Pollinated"] = false,
-        ["Disco"] = false,
-        ["Twisted"] = false,
-        ["Wet"] = false,
-        ["Choc"] = false,
-        ["Bloodlit"] = false,
-        ["Celestial"] = false,
-        ["Moonlit"] = false,
-        ["Chilled"] = false,
-        ["Zombified"] = false,
-        ["Plasma"] = false,
-        ["Burnt"] = false,
-        ["Frozen"] = false,
-        ["Voidtouched"] = false,
-        ["HoneyGlazed"] = false,
-        ["Shocked"] = false
-    },
-    ["White Screen"] = true,
+    ["White Screen"] = true
 }
 setfpscap(getgenv().Config["FPS"])
 repeat
