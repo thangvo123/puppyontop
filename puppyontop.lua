@@ -31,8 +31,8 @@ getgenv().Config = {
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["Egg"] = {
         ["Mythical Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
+            ["Buy"] = false,
+            ["Place"] = false,
             ["Priority"] = 5
         },
         ["Oasis Egg"] = {
