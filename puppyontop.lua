@@ -130,7 +130,7 @@ getgenv().Config = {
         ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 250,
-    ["White Screen"] = true
+    ["White Screen"] = false
 }
 repeat
     wait()
