@@ -132,7 +132,6 @@ getgenv().Config = {
     ["Limit Tree"] = 250,
     ["White Screen"] = true
 }
-setfpscap(getgenv().Config["FPS"])
 repeat
     wait()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))()
