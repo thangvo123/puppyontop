@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded()
 wait(10)
 --Config Above Key
-script_key="AsQbFmikzOizOlhOjRLjCEWBpUYwTznw";
+script_key="AiYRzfIgAQndnXnAjZkpboYWYLHNvIzI";
 getgenv().Config = {
     ["Time To Sell"] = 35, -- Seconds
     ["Craft Event"] = {
@@ -141,6 +141,6 @@ getgenv().Config = {
 }
 repeat
     wait()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/be5eb6eb83a60b4c87954ddf66dd7413.lua"))()    
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))() 
 task.wait(10)
 until getgenv().Loaded
