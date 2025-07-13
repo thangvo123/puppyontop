@@ -6,7 +6,8 @@ getgenv().Config = {
     ["Time To Sell"] = 35, -- Seconds
     ["Craft Event"] = {
         ["Crafters Seed Pack"] = true,
-        ["Anti Bee Egg"] = true
+        ["Anti Bee Egg"] = true,
+        ["Ancient Seed Pack"] = true
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
