@@ -5,6 +5,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     PETS_TRADE_DINO = { "Caterpillar", "Seagull", "Crab", "Bee", "Honey Bee", "Flamingo", "Dog", "Bunny", "Golden Lab" },
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -16,14 +17,14 @@ getgenv().gagConfig = {
 
     MAX_PLANTS = 250,
     DESTROY_UNTIL_MIN_PLANTS = 230,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Cauliflower" },
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry" },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
     PLANT_EGGS = { "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
     
     -- BUY_SEED_SHOP Priority (Left -> Right)
     BUY_SEED_SHOP = { "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
-    KEEP_SEEDS = { "Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom", "Bone Blossom" },
+    KEEP_SEEDS = {},
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Tomato", "Daffodil" },
     
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
