@@ -5,7 +5,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Zen Egg", "Zen Seed Pack", "Spiked Mango", "Koi", "Soft Sunshine", "Zenflare" },
+    BUY_EVENT_SHOP = { "Zen Egg", "Zen Seed Pack", "Koi" },
     MAX_EVENT_RESTOCK_SHECKLES = 16000000,
     
     -- General:
@@ -20,8 +20,8 @@ getgenv().gagConfig = {
     DESTROY_UNTIL_MIN_PLANTS = 230,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry" },
     
-    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
-    PLANT_EGGS = { "Dinosaur Egg", "Zen Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Mythical Egg", "Rare Summer Egg", "Uncommon Egg" },
+    PLANT_EGGS = { "Dinosaur Egg", "Zen Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     
     -- BUY_SEED_SHOP Priority (Left -> Right)
     BUY_SEED_SHOP = { "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
@@ -31,11 +31,11 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Tanchozuru", "Koi", "Kappa", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Pterodactyl", "Brontosaurus", "T-Rex", "Seal", "Rooster", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Axolotl", "Pack Bee", "Petal Bee", "Bear Bee", "Praying Mantis", "Caterpillar", "Giant Ant", "Snail", "Echo Frog", "Hamster", "Squirrel", "Brown Mouse", "Grey Mouse", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Blood Kiwi", "Ostrich", "Capybara", "Firefly", "Kitsune", "Chicken Zombie", ["Starfish"] = 4},
+    KEEP_PETS = { "Tanchozuru", "Koi", "Kappa", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Praying Mantis", "Snail", "Echo Frog", "Squirrel", "Brown Mouse", "Grey Mouse", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Blood Kiwi", "Firefly", "Kitsune", "Chicken Zombie", ["Starfish"] = 3, ["Rooster"] = 4, ["Ostrich"] = 3, ["Capybara"] = 2},
     KEEP_PETS_WEIGHT = 10,
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { "Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["Chicken"] = 2 },
+    EQUIP_PETS = { "Koi", ["Rooster"] = 4, ["Seal"] = 2, ["Capybara"] = 1, ["Starfish"] = 4 },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
@@ -43,7 +43,7 @@ getgenv().gagConfig = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1396141927233224734/MC8W3c8FKncXxrbNt2rvsReTKK0P9cDhTbaVo72dYcZS_f2mQjVCC7VfuITHrBlVgDM-",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1396141927233224734/MC8W3c8FKncXxrbNt2rvsReTKK0P9cDhTbaVo72dYcZS_f2mQjVCC7VfuITHrBlVgDM-", 
-    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune" },
+    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune", "Koi" },
     NOTIFY_PETS_WEIGHT = 10000,
     DISCORD_ID = "",
     WEBHOOK_NOTE = "good",
