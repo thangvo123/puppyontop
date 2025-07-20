@@ -6,7 +6,7 @@ getgenv().gagConfig = {
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Zen Egg", "Zen Seed Pack", "Koi" },
-    MAX_EVENT_RESTOCK_SHECKLES = 16000000,
+    MAX_EVENT_RESTOCK_SHECKLES = 256000000,
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -35,7 +35,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 10,
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { "Koi", ["Rooster"] = 4, ["Seal"] = 1, ["Capybara"] = 1, ["Starfish"] = 2 },
+    EQUIP_PETS = { "Koi", ["Rooster"] = 4, ["Seal"] = 1, ["Capybara"] = 1, ["Starfish"] = 3 },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
@@ -43,7 +43,7 @@ getgenv().gagConfig = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1396141927233224734/MC8W3c8FKncXxrbNt2rvsReTKK0P9cDhTbaVo72dYcZS_f2mQjVCC7VfuITHrBlVgDM-",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1396141927233224734/MC8W3c8FKncXxrbNt2rvsReTKK0P9cDhTbaVo72dYcZS_f2mQjVCC7VfuITHrBlVgDM-", 
-    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune", "Koi" },
+    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune" },
     NOTIFY_PETS_WEIGHT = 10000,
     DISCORD_ID = "",
     WEBHOOK_NOTE = "good",
