@@ -5,7 +5,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Zen Egg", "Zen Seed Pack", "Koi" },
+    BUY_EVENT_SHOP = { "Zen Egg", "Zen Seed Pack" },
     MAX_EVENT_RESTOCK_SHECKLES = 256000000,
     
     -- General:
@@ -35,7 +35,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 10,
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { "Koi", ["Rooster"] = 2, ["Seal"] = 1, ["Capybara"] = 1, ["Starfish"] = 3 },
+    EQUIP_PETS = { "Koi", ["Rooster"] = 2, ["Seal"] = 1, ["Capybara"] = 1, ["Starfish"] = 2 },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
