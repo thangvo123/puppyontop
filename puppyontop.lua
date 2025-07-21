@@ -41,8 +41,8 @@ getgenv().gagConfig = {
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler" },
 
-    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1396141927233224734/MC8W3c8FKncXxrbNt2rvsReTKK0P9cDhTbaVo72dYcZS_f2mQjVCC7VfuITHrBlVgDM-",
-    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1396141927233224734/MC8W3c8FKncXxrbNt2rvsReTKK0P9cDhTbaVo72dYcZS_f2mQjVCC7VfuITHrBlVgDM-", 
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1396710994943676506/Y03rsKFbqeH_6qDubUoFsKlI-3VYsOQ7DcQtTkK0C5LCMqP4Nz2LLiX41ExlLzAznB8z",
+    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1396710994943676506/Y03rsKFbqeH_6qDubUoFsKlI-3VYsOQ7DcQtTkK0C5LCMqP4Nz2LLiX41ExlLzAznB8z", 
     NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune" },
     NOTIFY_PETS_WEIGHT = 10000,
     DISCORD_ID = "",
