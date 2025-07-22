@@ -33,9 +33,11 @@ getgenv().gagConfig = {
 
     KEEP_PETS = { "Tanchozuru", "Koi", "Kappa", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Praying Mantis", "Snail", "Echo Frog", "Squirrel", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Blood Kiwi", "Firefly", "Kitsune", "Chicken Zombie", ["Starfish"] = 3, ["Rooster"] = 4, ["Ostrich"] = 3, ["Capybara"] = 2},
     KEEP_PETS_WEIGHT = 10,
+    KEEP_PETS_AGE = 50,
 
     -- EQUIP_PETS Priority (Left -> Right)
     EQUIP_PETS = { "Koi", ["Rooster"] = 2, ["Seal"] = 1, ["Capybara"] = 1, ["Starfish"] = 2 },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
