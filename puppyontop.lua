@@ -5,8 +5,8 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Zen Egg" },
-    MAX_EVENT_RESTOCK_SHECKLES = 1024000000,
+    BUY_EVENT_SHOP = { "Zen Egg", "Zen Seed Pack" },
+    MAX_EVENT_RESTOCK_SHECKLES = 2048000000,
     
     -- General:
     AUTO_UPDATE_RESTART = true,
