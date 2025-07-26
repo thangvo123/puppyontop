@@ -32,8 +32,8 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { "Tanchozuru", "Koi", "Kappa", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Praying Mantis", "Echo Frog", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Blood Kiwi", "Firefly", "Kitsune", "Chicken Zombie", ["Starfish"] = 4, ["Rooster"] = 4, ["Ostrich"] = 3, ["Capybara"] = 2},
-    KEEP_PETS_WEIGHT = 10,
-    KEEP_PETS_AGE = 50,
+    KEEP_PETS_WEIGHT = {},
+    KEEP_PETS_AGE = {},
 
     -- EQUIP_PETS Priority (Left -> Right)
     EQUIP_PETS = { ["Rooster"] = 3, "Kappa", ["Capybara"] = 1, ["Starfish"] = 2 },
@@ -46,7 +46,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1397177326273429526/jrQgCwmUzSnuziFG-yDZVBCBfoNl16LGW10Ebl8FfuIwvUgPl-KU1hS6VNTg4MG0u8nC",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1397177326273429526/jrQgCwmUzSnuziFG-yDZVBCBfoNl16LGW10Ebl8FfuIwvUgPl-KU1hS6VNTg4MG0u8nC", 
     NOTIFY_PETS = { "Disco Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune" },
-    NOTIFY_PETS_WEIGHT = 10000,
+    NOTIFY_PETS_WEIGHT = {},
     DISCORD_ID = "",
     WEBHOOK_NOTE = "good",
     SHOW_WEBHOOK_USERNAME = true,
