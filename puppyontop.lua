@@ -36,7 +36,7 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = {},
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { ["Rooster"] = 3, "Kappa", ["Capybara"] = 1, ["Starfish"] = 2 },
+    EQUIP_PETS = { "Tanchozuru", ["Corrupted Kodama"] = 1, ["Kodama"] = 1, ["Starfish"] = 1 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
@@ -45,7 +45,7 @@ getgenv().gagConfig = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1397177326273429526/jrQgCwmUzSnuziFG-yDZVBCBfoNl16LGW10Ebl8FfuIwvUgPl-KU1hS6VNTg4MG0u8nC",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1397177326273429526/jrQgCwmUzSnuziFG-yDZVBCBfoNl16LGW10Ebl8FfuIwvUgPl-KU1hS6VNTg4MG0u8nC", 
-    NOTIFY_PETS = { "Corrupted Kitsune", "Raiju", "Mizuchi", "Disco Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune" },
+    NOTIFY_PETS = { "Corrupted Kitsune", "Mizuchi", "Disco Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune" },
     NOTIFY_PETS_WEIGHT = {},
     DISCORD_ID = "",
     WEBHOOK_NOTE = "good",
