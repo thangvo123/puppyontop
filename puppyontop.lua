@@ -156,31 +156,12 @@ getgenv().ConfigsKaitun = {
 			["Pet"] = {
 				["Starfish"] = { 5, 100, 1 },
 			},
-			["Limit Upgrade"] = 2,
+			["Limit Upgrade"] = 8,
 			["Equip When Done"] = {
-				["Seal"] = { 1, 70, 1 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Starfish"] = { 1, 70 },
-				["Koi"] = { 1, 70 },
-				["Tanuki"] = { 1, 70 },
-				["Tanchozuru"] = { 1, 70 },
-				["Kappa"] = { 1, 70 },
-				["Kitsune"] = { 1, 70 },
-				["Dilophosaurus"] = { 1, 70 },
-				["Moon Cat"] = { 1, 70 },
 				["Capybara"] = { 1, 70 },
-				["Spinosaurus"] = { 1, 70 },
-				["Bear Bee"] = { 1, 70 },
-				["T-Rex"] = { 1, 70 },
-				["Brontosaurus"] = { 1, 70 },
-				["Disco Bee"] = { 1, 70 },
-				["Butterfly"] = { 1, 70 },
-				["Queen Bee"] = { 1, 70 },
-				["Dragonfly"] = { 1, 70 },
-				["Raccoon"] = { 1, 70 },
-				["Fennec Fox"] = { 1, 70 },
-				["Mimic Octopus"] = { 1, 70 },
-				["Red Fox"] = { 1, 70 },
-				["Blood Owl"] = { 1, 70 },
+				["Kodama"] = { 1, 70 },
+				["Tanchozuru"] = { 3, 70 },
 			},
 		},
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
@@ -217,8 +198,8 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Webhook = {
-		UrlPet = "xxx",
-		UrlSeed = "xxx",
+		UrlPet = "https://discord.com/api/webhooks/1397177326273429526/jrQgCwmUzSnuziFG-yDZVBCBfoNl16LGW10Ebl8FfuIwvUgPl-KU1hS6VNTg4MG0u8nC",
+		UrlSeed = "https://discord.com/api/webhooks/1397177326273429526/jrQgCwmUzSnuziFG-yDZVBCBfoNl16LGW10Ebl8FfuIwvUgPl-KU1hS6VNTg4MG0u8nC",
 		PcName = "xxx",
 
 		Noti = {
@@ -232,6 +213,7 @@ getgenv().ConfigsKaitun = {
 			},
 			Pets = {
 				"Disco Bee",
+				"Corrupted Kitsune",
 				"Butterfly",
 				"Mimic Octopus",
 				"Queen Bee",
