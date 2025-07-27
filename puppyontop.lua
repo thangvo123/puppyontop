@@ -16,8 +16,8 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 250,
-    DESTROY_UNTIL_MIN_PLANTS = 200,
+    MAX_PLANTS = 300,
+    DESTROY_UNTIL_MIN_PLANTS = 280,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Apple", "Tomato", "Corn", "Daffodil", "Bamboo", "Apple", "Coconut", "Pumpkin", "Watermelon", "Cactus", "Dragon Fruit", "Mango", "Grape", "Mushroom", "Pepper", "Cacao" },
     LIMIT_PLANT_SEED = { ["Strawberry"] = 2, ["Blueberry"] = 2, ["Orange Tulip"] = 2, ["Apple"] = 2, ["Tomato"] = 2, ["Corn"] = 2, ["Daffodil"] = 2, ["Bamboo"] = 2, ["Coconut"] = 2, ["Pumpkin"] = 2, ["Watermelon"] = 2, ["Cactus"] = 2, ["Dragon Fruit"] = 2, ["Mango"] = 2, ["Grape"] = 2, ["Mushroom"] = 2, ["Pepper"] = 2, ["Cacao"] = 2 },
     
