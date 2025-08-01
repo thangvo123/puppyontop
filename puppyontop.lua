@@ -19,8 +19,8 @@ getgenv().gagConfig = {
 
     MAX_PLANTS = 300,
     DESTROY_UNTIL_MIN_PLANTS = 280,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Apple", "Tomato", "Corn", "Daffodil", "Bamboo", "Apple", "Coconut", "Pumpkin", "Watermelon", "Cactus", "Dragon Fruit", "Mango", "Grape", "Mushroom", "Pepper", "Cacao" },
-    LIMIT_PLANT_SEED = { ["Strawberry"] = 2, ["Blueberry"] = 2, ["Orange Tulip"] = 2, ["Apple"] = 2, ["Tomato"] = 2, ["Corn"] = 2, ["Daffodil"] = 2, ["Bamboo"] = 2, ["Coconut"] = 2, ["Pumpkin"] = 2, ["Watermelon"] = 2, ["Cactus"] = 2, ["Dragon Fruit"] = 2, ["Mango"] = 2, ["Grape"] = 2, ["Mushroom"] = 2, ["Pepper"] = 2, ["Cacao"] = 2 },
+    DELETE_PLANTS_AFTER_MAX = { "Zen Rocks", "Dezen", "Giant Pinecone", "Taro Flower", "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Apple", "Tomato", "Corn", "Daffodil", "Bamboo", "Apple", "Coconut", "Pumpkin", "Watermelon", "Cactus", "Dragon Fruit", "Mango", "Grape", "Mushroom", "Pepper", "Cacao", "Serenity", "Sugar Apple", "Prickly Pear", "Hinomai", "Loquat", "Lucky Bamboo", "Feijoa", "Beanstalk", "Ember Lily" },
+    LIMIT_PLANT_SEED = { ["Zen Rocks"] = 1, ["Dezen"] = 2, ["Taro Flower"] = 2,["Monoblooma"] = 1, ["Giant Pinecone"] = 5, ["Bell Pepper"] = 5, ["Ember Lily"] = 5, ["Beanstalk"] = 5, ["Feijoa"] = 5, ["Lucky Bamboo"] = 5, ["Loquat"] = 5, ["Prickly Pear"] = 5, ["Serenity"] = 5, ["Hinomai"] = 5, ["Strawberry"] = 1, ["Blueberry"] = 1, ["Orange Tulip"] = 1, ["Apple"] = 10, ["Tomato"] = 10, ["Corn"] = 10, ["Daffodil"] = 1, ["Bamboo"] = 1, ["Coconut"] = 1, ["Pumpkin"] = 10, ["Watermelon"] = 1, ["Cactus"] = 1, ["Dragon Fruit"] = 1, ["Mango"] = 1, ["Grape"] = 1, ["Mushroom"] = 1, ["Pepper"] = 1, ["Cacao"] = 1, ["Sugar Apple"] = 15 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Mythical Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Dinosaur Egg", "Corrupted Zen Egg", "Zen Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
