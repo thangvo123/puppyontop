@@ -5,7 +5,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Zen Egg", "Tranquil Radar", "Corrupt Radar" },
+    BUY_EVENT_SHOP = { "Zen Egg", "Tranquil Radar", "Corrupt Radar", "Raiju" },
     MAX_EVENT_RESTOCK_SHECKLES = 512_000_000,
     PLACE_ALL_EVENT_STAFF = true,
     
@@ -20,7 +20,7 @@ getgenv().gagConfig = {
     MAX_PLANTS = 300,
     DESTROY_UNTIL_MIN_PLANTS = 280,
     DELETE_PLANTS_AFTER_MAX = { "Zen Rocks", "Dezen", "Giant Pinecone", "Taro Flower", "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Apple", "Tomato", "Corn", "Daffodil", "Bamboo", "Apple", "Coconut", "Pumpkin", "Watermelon", "Cactus", "Dragon Fruit", "Mango", "Grape", "Mushroom", "Pepper", "Cacao", "Serenity", "Sugar Apple", "Prickly Pear", "Hinomai", "Loquat", "Lucky Bamboo", "Feijoa", "Beanstalk", "Ember Lily" },
-    LIMIT_PLANT_SEED = { ["Zen Rocks"] = 1, ["Dezen"] = 2, ["Taro Flower"] = 2,["Monoblooma"] = 1, ["Giant Pinecone"] = 10, ["Bell Pepper"] = 5, ["Ember Lily"] = 5, ["Beanstalk"] = 5, ["Feijoa"] = 5, ["Lucky Bamboo"] = 5, ["Loquat"] = 5, ["Prickly Pear"] = 5, ["Serenity"] = 5, ["Hinomai"] = 5, ["Strawberry"] = 1, ["Blueberry"] = 1, ["Orange Tulip"] = 10, ["Apple"] = 10, ["Tomato"] = 10, ["Corn"] = 10, ["Daffodil"] = 1, ["Bamboo"] = 1, ["Coconut"] = 1, ["Pumpkin"] = 10, ["Watermelon"] = 1, ["Cactus"] = 1, ["Dragon Fruit"] = 1, ["Mango"] = 1, ["Grape"] = 1, ["Mushroom"] = 1, ["Pepper"] = 1, ["Cacao"] = 1, ["Sugar Apple"] = 15 },
+    LIMIT_PLANT_SEED = { ["Zen Rocks"] = 1, ["Dezen"] = 2, ["Taro Flower"] = 2,["Monoblooma"] = 1, ["Giant Pinecone"] = 10, ["Bell Pepper"] = 5, ["Ember Lily"] = 5, ["Beanstalk"] = 10, ["Feijoa"] = 5, ["Lucky Bamboo"] = 5, ["Loquat"] = 5, ["Prickly Pear"] = 5, ["Serenity"] = 5, ["Hinomai"] = 5, ["Strawberry"] = 5, ["Blueberry"] = 1, ["Orange Tulip"] = 10, ["Apple"] = 10, ["Tomato"] = 15, ["Corn"] = 10, ["Daffodil"] = 1, ["Bamboo"] = 1, ["Coconut"] = 1, ["Pumpkin"] = 10, ["Watermelon"] = 1, ["Cactus"] = 1, ["Dragon Fruit"] = 1, ["Mango"] = 1, ["Grape"] = 1, ["Mushroom"] = 1, ["Pepper"] = 10, ["Cacao"] = 1, ["Sugar Apple"] = 10 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Mythical Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Dinosaur Egg", "Corrupted Zen Egg", "Zen Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
@@ -33,12 +33,12 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Corrupted Kodama", "Raiju", "Corrupted Kitsune", "Mizuchi", "Koi", "Kappa", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Echo Frog", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Blood Kiwi", "Firefly", "Kitsune", "Chicken Zombie", ["Starfish"] = 4, ["Rooster"] = 4, ["Capybara"] = 2, ["Kodama"] = 3, ["Tanchozuru"] = 4},
+    KEEP_PETS = { "Corrupted Kodama", "Raiju", "Corrupted Kitsune", "Mizuchi", "Koi", "Kappa", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Echo Frog", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Blood Kiwi", "Firefly", "Kitsune", "Chicken Zombie", ["Starfish"] = 4, ["Rooster"] = 4, ["Capybara"] = 2, ["Kodama"] = 3, ["Tanchozuru"] = 5},
     KEEP_PETS_WEIGHT = {},
     KEEP_PETS_AGE = {},
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { "Corrupted Kodama" , ["Kodama"] = 3, ["Starfish"] = 1, "Tanchozuru" },
+    EQUIP_PETS = { "Tanchozuru", "Corrupted Kodama", ["Kodama"] = 2, ["Starfish"] = 1 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
