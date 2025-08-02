@@ -5,7 +5,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Zen Egg", "Tranquil Radar", "Raiju" },
+    BUY_EVENT_SHOP = { "Zen Egg", "Tranquil Radar", "Corrupt Radar" },
     MAX_EVENT_RESTOCK_SHECKLES = 512_000_000,
     PLACE_ALL_EVENT_STAFF = true,
     
@@ -38,15 +38,15 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = {},
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { "Tanchozuru", ["Kodama"] = 3, ["Raiju"] = 1 },
+    EQUIP_PETS = { ["Capybara"] = 1, ["Corrupted Kodama"] = 1, ["Kodama"] = 1, ["Starfish"] = 1, "Tanchozuru" },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler" },
 
-    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1399030234602278933/Lwrf6Kf_HkFqJC76Acf5uFT6lTwP6j7WisgNa2sd76TuqXo6Ah7TEXtoP4ZTEK9l7vQk",
-    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1399030234602278933/Lwrf6Kf_HkFqJC76Acf5uFT6lTwP6j7WisgNa2sd76TuqXo6Ah7TEXtoP4ZTEK9l7vQk", 
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1401020908675534958/LafePA1Ix4-vxxWbdgAZvtUyjiuUy2dwXeRqd9rwHIrw9gCDDzqKbgkdRKhjnjK7YKdo",
+    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1401020908675534958/LafePA1Ix4-vxxWbdgAZvtUyjiuUy2dwXeRqd9rwHIrw9gCDDzqKbgkdRKhjnjK7YKdo", 
     NOTIFY_PETS = { "Corrupted Kitsune", "Mizuchi", "Disco Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune" },
     NOTIFY_PETS_WEIGHT = {},
     DISCORD_ID = "",
