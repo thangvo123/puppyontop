@@ -16,10 +16,10 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 300,
-    DESTROY_UNTIL_MIN_PLANTS = 280,
+    MAX_PLANTS = 320,
+    DESTROY_UNTIL_MIN_PLANTS = 300,
     DELETE_PLANTS_AFTER_MAX = { "Zen Rocks", "Dezen", "Giant Pinecone", "Taro Flower", "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Apple", "Tomato", "Corn", "Daffodil", "Bamboo", "Apple", "Coconut", "Pumpkin", "Watermelon", "Cactus", "Dragon Fruit", "Mango", "Grape", "Mushroom", "Pepper", "Cacao", "Serenity", "Sugar Apple", "Prickly Pear", "Hinomai", "Loquat", "Lucky Bamboo", "Feijoa", "Beanstalk", "Ember Lily" },
-    LIMIT_PLANT_SEED = { ["Zen Rocks"] = 2, ["Dezen"] = 2, ["Taro Flower"] = 2, ["Monoblooma"] = 2, ["Giant Pinecone"] = 10, ["Bell Pepper"] = 5, ["Ember Lily"] = 5, ["Beanstalk"] = 10, ["Feijoa"] = 5, ["Lucky Bamboo"] = 5, ["Loquat"] = 5, ["Prickly Pear"] = 5, ["Serenity"] = 5, ["Hinomai"] = 5, ["Strawberry"] = 5, ["Blueberry"] = 5, ["Orange Tulip"] = 10, ["Apple"] = 10, ["Tomato"] = 15, ["Corn"] = 10, ["Daffodil"] = 2, ["Bamboo"] = 5, ["Coconut"] = 5, ["Pumpkin"] = 10, ["Watermelon"] = 5, ["Cactus"] = 4, ["Dragon Fruit"] = 2, ["Mango"] = 2, ["Grape"] = 2, ["Mushroom"] = 5, ["Pepper"] = 5, ["Cacao"] = 2, ["Sugar Apple"] = 10 },
+    LIMIT_PLANT_SEED = { ["Zen Rocks"] = 3, ["Dezen"] = 3, ["Taro Flower"] = 3, ["Monoblooma"] = 3, ["Giant Pinecone"] = 10, ["Bell Pepper"] = 5, ["Ember Lily"] = 5, ["Beanstalk"] = 10, ["Feijoa"] = 5, ["Lucky Bamboo"] = 5, ["Loquat"] = 5, ["Prickly Pear"] = 5, ["Serenity"] = 5, ["Hinomai"] = 5, ["Strawberry"] = 5, ["Blueberry"] = 5, ["Orange Tulip"] = 10, ["Apple"] = 10, ["Tomato"] = 15, ["Corn"] = 10, ["Daffodil"] = 3, ["Bamboo"] = 5, ["Coconut"] = 5, ["Pumpkin"] = 10, ["Watermelon"] = 5, ["Cactus"] = 4, ["Dragon Fruit"] = 3, ["Mango"] = 3, ["Grape"] = 3, ["Mushroom"] = 5, ["Pepper"] = 5, ["Cacao"] = 3, ["Sugar Apple"] = 10 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Mythical Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Gourmet Egg", "Corrupted Zen Egg", "Anti Bee Egg", "Bug Egg", "Paradise Egg", "Zen Egg", "Night Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
@@ -37,7 +37,7 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = {},
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { ["Capybara"] = 1, ["Corrupted Kodama"] = 2, ["Kodama"] = 2, ["Starfish"] = 1, "Tanchozuru" },
+    EQUIP_PETS = { ["Kappa"] = 2, ["Corrupted Kodama"] = 1, ["Kodama"] = 2, ["Starfish"] = 1, "Tanchozuru" },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
