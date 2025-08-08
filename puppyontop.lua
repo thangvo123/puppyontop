@@ -42,8 +42,8 @@ getgenv().gagConfig = {
     BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Grandmaster Sprinkler" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
-    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1401020908675534958/LafePA1Ix4-vxxWbdgAZvtUyjiuUy2dwXeRqd9rwHIrw9gCDDzqKbgkdRKhjnjK7YKdo",
-    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1401020908675534958/LafePA1Ix4-vxxWbdgAZvtUyjiuUy2dwXeRqd9rwHIrw9gCDDzqKbgkdRKhjnjK7YKdo", 
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1403165966623314050/T0wMDWj6lqq593xV8fnVo0IILnvKDZ6cqkKvWytPYhlSv8U1LKefoXd989ftXaXV9sH0",
+    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1403165966623314050/T0wMDWj6lqq593xV8fnVo0IILnvKDZ6cqkKvWytPYhlSv8U1LKefoXd989ftXaXV9sH0", 
     NOTIFY_PETS = { "French Fry Ferret", "Mizuchi", "Disco Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Kitsune" },
     NOTIFY_PETS_WEIGHT = {},
     DISCORD_ID = "",
