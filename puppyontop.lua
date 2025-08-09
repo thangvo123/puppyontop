@@ -30,12 +30,12 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Mochi Mouse", ["Kappa"] = 5, "Sushi Bear", "Spaghetti Sloth", "French Fry Ferret", "Corrupted Kodama", "Raiju", "Corrupted Kitsune", "Mizuchi", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Kitsune", "Chicken Zombie", ["Starfish"] = 4, ["Rooster"] = 4, ["Capybara"] = 2, ["Kodama"] = 5, ["Tanchozuru"] = 15 },
+    KEEP_PETS = { "Sushi Bear", "Junkbot", "Lobster Thermidor", "Gorilla Chef", ["Kappa"] = 5, "Sunny-Side Chicken", "Spaghetti Sloth", "French Fry Ferret", "Corrupted Kodama", "Raiju", "Corrupted Kitsune", "Mizuchi", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Kitsune", "Chicken Zombie", ["Starfish"] = 4, ["Rooster"] = 4, ["Capybara"] = 2, ["Kodama"] = 5, ["Tanchozuru"] = 15 },
     KEEP_PETS_WEIGHT = {},
     KEEP_PETS_AGE = {},
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { ["Mochi Mouse"] = 1, "Spaghetti Sloth", "Sushi Bear", ["Tanchozuru"] = 3, ["Kodama"] = 2, ["Starfish"] = 1 },
+    EQUIP_PETS = { "Kappa", "Corrupted Kodama", "Tanchozuru", "Kodama", "Gorilla Chef", "Sushi Bear" },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
@@ -43,8 +43,8 @@ getgenv().gagConfig = {
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1403165966623314050/T0wMDWj6lqq593xV8fnVo0IILnvKDZ6cqkKvWytPYhlSv8U1LKefoXd989ftXaXV9sH0",
-    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1403165966623314050/T0wMDWj6lqq593xV8fnVo0IILnvKDZ6cqkKvWytPYhlSv8U1LKefoXd989ftXaXV9sH0", 
-    NOTIFY_PETS = { "French Fry Ferret", "Mizuchi", "Disco Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Kitsune" },
+    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1403165966623314050/T0wMDWj6lqq593xV8fnVo0IILnvKDZ6cqkKvWytPYhlSv8U1LKefoXd989ftXaXV9sH0",  
+    NOTIFY_PETS = { "Lobster Thermidor", "French Fry Ferret", "Mizuchi", "Disco Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Kitsune" },
     NOTIFY_PETS_WEIGHT = {},
     DISCORD_ID = "",
     WEBHOOK_NOTE = "happy",
