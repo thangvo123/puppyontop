@@ -16,8 +16,8 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 400,
-    DESTROY_UNTIL_MIN_PLANTS = 350,
+    MAX_PLANTS = 100,
+    DESTROY_UNTIL_MIN_PLANTS = 80,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     LIMIT_PLANT_SEED = { ["Strawberry"] = 5, ["Blueberry"] = 5, ["Apple"] = 5, ["Tomato"] = 5, ["Corn"] = 5, ["Bamboo"] = 5, ["Coconut"] = 5, ["Pumpkin"] = 5, ["Watermelon"] = 5, ["Pepper"] = 5 },
  
@@ -32,7 +32,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Sushi Bear", "Lobster Thermidor", "Gorilla Chef", ["Kappa"] = 5, "Sunny-Side Chicken", "Spaghetti Sloth", "French Fry Ferret", "Corrupted Kodama", "Raiju", "Corrupted Kitsune", "Mizuchi", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Kitsune", "Chicken Zombie", ["Starfish"] = 4, ["Rooster"] = 4, ["Capybara"] = 2, ["Kodama"] = 5, ["Tanchozuru"] = 15 },
+    KEEP_PETS = { "Sushi Bear", "Lobster Thermidor", "Gorilla Chef", "Sunny-Side Chicken", "Spaghetti Sloth", "French Fry Ferret", "Corrupted Kodama", "Raiju", "Corrupted Kitsune", "Mizuchi", "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Kitsune", "Chicken Zombie", ["Starfish"] = 4, ["Rooster"] = 4, ["Capybara"] = 2 },
     KEEP_PETS_WEIGHT = {},
     KEEP_PETS_AGE = {},
 
