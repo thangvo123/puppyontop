@@ -78,12 +78,12 @@ getgenv().ConfigsKaitun = {
 		["Cook Event"] = {
 			Minimum_Money = 30_000_000, -- minimum money to start play this event
 			Rewards_Item = { -- The top is the most top mean prefered.
-				"Gorilla Chef",
-                "Gourmet Egg",
 				"Culinarian Chest",
+                "Gourmet Egg",
+				"Gorilla Chef",
+				"Pet Shard Aromatic",
 				"Gourmet Seed Pack",
 				"Sunny-Side Chicken",
-				"Pet Shard Aromatic",
 				"Cooking Cauldron",
 				"Bitter Melon Seed",
 				"Pricklefruit Seed",
@@ -117,7 +117,6 @@ getgenv().ConfigsKaitun = {
 			"Advanced Sprinkler",
 			"Basic Sprinkler",
 			"Lightning Rod",
-			"Level Up Lollipop",
 			"Medium Treat",
 			"Medium Toy",
 		},
@@ -155,17 +154,15 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Pets = {
-		["Start Delete Pet At"] = 10,
+		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				["Starfish"] = { 3, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
 			},
 			["Limit Upgrade"] = 5, -- max is 5 (more than or lower than 1 will do nothing)
 			["Equip When Done"] = {
-								["Spaghetti Sloth"] = { 6, 100 },
-                                ["Sushi Bear"] = { 1, 100 },
-                                ["Sunny-Side Chicken"] = { 1, 100 },
-                                ["Gorilla Chef"] = { 5, 100 },
+                                ["Gorilla Chef"] = { 7, 100, 1 },
+                                ["Sushi Bear"] = { 3, 100, 2 },
 			},
 		},
 		Favorite_LockedPet = true,
@@ -190,12 +187,11 @@ getgenv().ConfigsKaitun = {
 			"Red Fox",
 			"Rooster",
 			["Starfish"] = 3,
-            ["Spaghetti Sloth"] = 8,
             "Corrupted Kodama",
             ["Sunny-Side Chicken"] = 8,
             ["Sushi Bear"] = 5,
             ["Capybara"] = 2,
-            ["Gorilla Chef"] = 5,
+            ["Gorilla Chef"] = 7,
 		},
 		LockPet_Weight = 20, -- if Weight >= 10 they will locked
 		Instant_Sell = {		
