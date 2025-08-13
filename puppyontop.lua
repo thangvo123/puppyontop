@@ -23,10 +23,10 @@ getgenv().ConfigsKaitun = {
 			"Moon Mango",
 			"Bone Blossom",
 			"Fossilight",
-      		"Serenity",
-            "King Cabbage",
-            "Taco Fern",
-            "Corn",
+      			"Serenity",
+            		"King Cabbage",
+            		"Taco Fern",
+            		"Corn",
 		}
 	},
 
@@ -79,7 +79,7 @@ getgenv().ConfigsKaitun = {
 			Minimum_Money = 30_000_000, -- minimum money to start play this event
 			Rewards_Item = { -- The top is the most top mean prefered.
 				"Culinarian Chest",
-                "Gourmet Egg",
+                		"Gourmet Egg",
 				"Gorilla Chef",
 				"Pet Shard Aromatic",
 				"Gourmet Seed Pack",
@@ -139,7 +139,7 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 			"Rare Summer Egg",
 			"Common Summer Egg",
-            "Mythical Egg",
+            		"Mythical Egg",
 		},
 		Buy = {
 			"Bee Egg",
@@ -169,7 +169,7 @@ getgenv().ConfigsKaitun = {
 		Locked_Pet_Age = 76, -- pet that age > 60 will lock
 		Locked = {
 			"French Fry Ferret",
-            "Lobster Thermidor",
+            		"Lobster Thermidor",
 			"Kitsune",
 			"Dilophosaurus",
 			"Raiju",
@@ -187,11 +187,11 @@ getgenv().ConfigsKaitun = {
 			"Red Fox",
 			"Rooster",
 			["Starfish"] = 3,
-            "Corrupted Kodama",
-            ["Sunny-Side Chicken"] = 8,
-            ["Sushi Bear"] = 5,
-            ["Capybara"] = 2,
-            ["Gorilla Chef"] = 7,
+            		"Corrupted Kodama",
+            		["Sunny-Side Chicken"] = 8,
+            		["Sushi Bear"] = 5,
+            		["Capybara"] = 2,
+            		["Gorilla Chef"] = 7,
 		},
 		LockPet_Weight = 20, -- if Weight >= 10 they will locked
 		Instant_Sell = {		
@@ -208,7 +208,7 @@ getgenv().ConfigsKaitun = {
 			"Peacock",
 			"Flamingo",
 			"Brown Mouse",
-            "Hotdog Daschund",
+            		"Hotdog Daschund",
 		}
 	},
 
@@ -228,7 +228,7 @@ getgenv().ConfigsKaitun = {
 			},
 			Pets = {
 				"French Fry Ferret",
-                "Lobster Thermidor",
+                		"Lobster Thermidor",
 				"Corrupted Kitsune",
 				"Kitsune",
 				"Spinosaurus",
