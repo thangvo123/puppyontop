@@ -18,15 +18,15 @@ getgenv().ConfigsKaitun = {
 		["Destroy Untill"] = 100,
 
 		["Safe Tree"] = {
-			"Tranquil Bloom",
-			"Maple Apple",
-			"Moon Mango",
-			"Bone Blossom",
-			"Fossilight",
-			"Serenity",
-			"King Cabbage",
-			"Taco Fern",
-			"Corn",
+			["Tranquil Bloom"] = 5,
+			["Maple Apple"] = 5,
+			["Moon Mango"] = 5,
+			["Bone Blossom"] = 5,
+			["Fossilight"] = 5,
+			["Serenity"] = 5,
+			["King Cabbage"] = 5,
+			["Taco Fern"] = 5,
+			["Corn"] = 5,
 		}
 	},
 
