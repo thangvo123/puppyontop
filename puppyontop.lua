@@ -12,7 +12,7 @@ getgenv().ConfigsKaitun = {
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
 
-	["Rejoin When Update"] = false,
+	["Rejoin When Update"] = true,
 	["Limit Tree"] = {
 		["Limit"] = 150,
 		["Destroy Untill"] = 100,
@@ -80,19 +80,10 @@ getgenv().ConfigsKaitun = {
 			Rewards_Item = { -- The top is the most top mean prefered.
 				"Culinarian Chest",
 				"Gourmet Egg",
-				"Gorilla Chef",
-				"Pet Shard Aromatic",
 				"Gourmet Seed Pack",
+				"Gorilla Chef",
 				"Sunny-Side Chicken",
-				"Cooking Cauldron",
-				"Bitter Melon Seed",
-				"Pricklefruit Seed",
-				"Butternut Squash Seed",
-				"Spring Onion Seed",
-				"Kitchen Crate",
-				"Kitchen Flooring",
-				"Kitchen Cart",
-				"Smoothie Fountain",
+				-- u can add it more as u want, if it not in list.
 			}
 		},
 		["Traveling Shop"] = {
