@@ -130,8 +130,8 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 5, -- max is 5 (more than or lower than 1 will do nothing)
 			["Equip When Done"] = {
-                                ["Sunny-Side Chicken"] = { 5, 100, 1 },
-                                ["Dairy Cow"] = { 3, 100, 2 },
+                                ["Sunny-Side Chicken"] = { 4, 100, 1 },
+                                ["Dairy Cow"] = { 4, 100, 2 },
 			},
 		},
 		Favorite_LockedPet = true,
@@ -159,7 +159,7 @@ getgenv().ConfigsKaitun = {
 			["Sunny-Side Chicken"] = 5,
 			["Sushi Bear"] = 5,
 			["Capybara"] = 2,
-			["Dairy Cow"] = 3,
+			["Dairy Cow"] = 4,
 			["Golem"] = 5,
 			"Golden Goose",
 		},
