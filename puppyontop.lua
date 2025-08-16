@@ -151,15 +151,15 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Pets = {
-		["Start Delete Pet At"] = 30,
+		["Start Delete Pet At"] = 25,
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				["Starfish"] = { 3, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
 			},
 			["Limit Upgrade"] = 5, -- max is 5 (more than or lower than 1 will do nothing)
 			["Equip When Done"] = {
-                                ["Gorilla Chef"] = { 5, 100, 1 },
-                                ["Sushi Bear"] = { 3, 100, 2 },
+                                ["Spaghetti Sloth"] = { 4, 100, 2 },
+                                ["Gorilla Chef"] = { 4, 100, 1 },
 			},
 		},
 		Favorite_LockedPet = true,
@@ -188,6 +188,7 @@ getgenv().ConfigsKaitun = {
 			["Sushi Bear"] = 5,
 			["Capybara"] = 2,
 			["Gorilla Chef"] = 5,
+			["Spaghetti Sloth"] = 5,
 		},
 		LockPet_Weight = 20, -- if Weight >= 10 they will locked
 		Instant_Sell = {		
