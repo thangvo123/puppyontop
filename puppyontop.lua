@@ -14,8 +14,8 @@ getgenv().ConfigsKaitun = {
 
 	["Rejoin When Update"] = true,
 	["Limit Tree"] = {
-		["Limit"] = 150,
-		["Destroy Untill"] = 100,
+		["Limit"] = 160,
+		["Destroy Untill"] = 140,
 
 		["Safe Tree"] = {
 			["Tranquil Bloom"] = 5,
@@ -32,24 +32,9 @@ getgenv().ConfigsKaitun = {
 
 	Seed = {
 		Buy = {
-			Mode = "Custom", -- Custom , Auto
+			Mode = "Auto", -- Custom , Auto
 			Custom = {
-				"Tomato",
-				"Strawberry",
-				"Bell Pepper",
-				"Blood Banana",
-				"Onion",
-				"Pear",
-				"Grape",
-				"Mushroom",
-				"Pepper",
-				"Cacao",
-				"Beanstalk",
-				"Ember Lily",
-				"Sugar Apple",
-				"Burning Bud",
-				"Giant Pinecone",
-				"Elder Strawberry",
+				"Carrot",
 			}
 		},
 		Place = {
@@ -75,28 +60,23 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Events = {
-		["Cook Event"] = {
-			Minimum_Money = 30_000_000, -- minimum money to start play this event
-			Rewards_Item = { -- The top is the most top mean prefered.
-				"Culinarian Chest",
-				"Gourmet Egg",
-				"Gourmet Seed Pack",
-				"Gorilla Chef",
-				"Sunny-Side Chicken",
-				-- u can add it more as u want, if it not in list.
-			}
+		["Bean Event"] = {
+			Minimum_Money = 10_000_000, -- minimum money to start play this event
+		},
+		Shop = { -- delete -- to buy
+			"Sprout Seed Pack",
+			"Sprout Egg",
+			-- "Mandrake",
+			"Silver Fertilizer",
+			-- "Canary Melon",
+			-- "Amberheart",
+			--"Spriggan",
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
 		},
 		Craft = {
 			"Anti Bee Egg",
-		},
-		Shop = {
-			"Zen Egg",
-			"Spiked Mango",
-			"Pet Shard Tranquil",
-			"Pet Shard Corrupted",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
@@ -118,6 +98,7 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
+			"Sprout Egg",
 			"Gourmet Egg",
 			"Zen Egg",
 			"Primal Egg",
@@ -142,15 +123,15 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Pets = {
-		["Start Delete Pet At"] = 25,
+		["Start Delete Pet At"] = 20,
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				["Starfish"] = { 3, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
 			},
 			["Limit Upgrade"] = 5, -- max is 5 (more than or lower than 1 will do nothing)
 			["Equip When Done"] = {
-                                ["Spaghetti Sloth"] = { 4, 100, 2 },
-                                ["Gorilla Chef"] = { 4, 100, 1 },
+                                ["Sunny-Side Chicken"] = { 5, 100, 1 },
+                                ["Dairy Cow"] = { 3, 100, 2 },
 			},
 		},
 		Favorite_LockedPet = true,
@@ -178,8 +159,9 @@ getgenv().ConfigsKaitun = {
 			["Sunny-Side Chicken"] = 5,
 			["Sushi Bear"] = 5,
 			["Capybara"] = 2,
-			["Gorilla Chef"] = 5,
-			["Spaghetti Sloth"] = 5,
+			["Dairy Cow"] = 3,
+			"Golem",
+			"Golden Goose",
 		},
 		LockPet_Weight = 20, -- if Weight >= 10 they will locked
 		Instant_Sell = {		
@@ -201,8 +183,8 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Webhook = {
-        UrlPet = "https://discord.com/api/webhooks/1404505488477126762/3NYLUOLXOlBphmSmD-xMoUTW5Xpg0Py7BkuEePhL2EdzD2bnHIp668qPaxabJcCrhIkh",
-        UrlSeed = "https://discord.com/api/webhooks/1404505488477126762/3NYLUOLXOlBphmSmD-xMoUTW5Xpg0Py7BkuEePhL2EdzD2bnHIp668qPaxabJcCrhIkh",
+        UrlPet = "https://discord.com/api/webhooks/1406306458357731379/n3zIlig6FnXHiRHZ6LTwWCnjOQQO_NBahwlAcEOOIwkxdxiaEKvm6B2NuvZ3dTTFSCpZ",
+        UrlSeed = "https://discord.com/api/webhooks/1406306458357731379/n3zIlig6FnXHiRHZ6LTwWCnjOQQO_NBahwlAcEOOIwkxdxiaEKvm6B2NuvZ3dTTFSCpZ",
         PcName = "thanggp",
 
 		Noti = {
@@ -215,6 +197,7 @@ getgenv().ConfigsKaitun = {
 				"Idk"
 			},
 			Pets = {
+				"Golden Goose",
 				"French Fry Ferret",
 				"Lobster Thermidor",
 				"Corrupted Kitsune",
