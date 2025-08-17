@@ -63,6 +63,10 @@ getgenv().ConfigsKaitun = {
 		["Bean Event"] = {
 			Minimum_Money = 10_000_000, -- minimum money to start play this event
 		},
+		MaxMoney_Restocks = 10_000_000_000,
+		Restocks_When_Come = { -- will restock when Sprout Egg come on shop
+			"Sprout Egg",
+		},
 		Shop = { -- delete -- to buy
 			"Sprout Seed Pack",
 			"Sprout Egg",
@@ -134,6 +138,7 @@ getgenv().ConfigsKaitun = {
                                 ["Dairy Cow"] = { 4, 100, 2 },
 			},
 		},
+		Unfavorite_AllPet = false,
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 76, -- pet that age > 60 will lock
 		Locked = {
