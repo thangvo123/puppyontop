@@ -3,10 +3,10 @@ setfpscap(2)
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest", "Sprout Egg" },
+    CRAFT_EVENT = { "Anti Bee Egg", "Sprout Egg", "Skyroot Chest" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Rare Summer Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     MAX_EVENT_RESTOCK_SHECKLES = 121_500_000,  -- Restock stop at 48m
-    BUY_EVENT_SHOP = { "Skyroot Chest", "Spriggan", "Sprout Egg", "Sprout Seed Pack" },
+    BUY_EVENT_SHOP = { "Sprout Seed Pack", "Sprout Egg", "Spriggan", "Skyroot Chest" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
     
@@ -32,7 +32,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Sunny-Side Chicken"] = 5, ["Jackalope"] = 4, ["Spriggan"] = 2 },
+    EQUIP_PETS = { ["Spriggan"] = 2, ["Jackalope"] = 4, ["Sunny-Side Chicken"] = 4 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
