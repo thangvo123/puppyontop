@@ -32,7 +32,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Spriggan"] = 2, ["Jackalope"] = 4, ["Sunny-Side Chicken"] = 4 },
+    EQUIP_PETS = { ["Spriggan"] = 2, ["Jackalope"] = 2, ["Sunny-Side Chicken"] = 4 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
