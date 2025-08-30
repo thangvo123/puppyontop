@@ -11,7 +11,7 @@ getgenv().gagConfig = {
     PLACE_COSMETIC = { "Cooking Kit" },
     
     -- General:
-    AUTO_UPDATE_RESTART = false,
+    AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
