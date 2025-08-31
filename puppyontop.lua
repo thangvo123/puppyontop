@@ -4,7 +4,6 @@ setfpscap(2)
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg", "Mutation Spray Glimmering" },
-    GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Honey Sprinkler", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Enchanted Seed Pack", "Pet Shard Glimmering", "Mutation Spray Glimmering" },
     PLACE_COSMETIC = { "Cooking Kit" },
