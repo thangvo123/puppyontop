@@ -1,4 +1,3 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 script_key="LZPMQMICYwWBRDJfXNfuLdwEtFreEwKb";
 setfpscap(2)
 
