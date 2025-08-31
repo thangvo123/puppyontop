@@ -6,7 +6,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     GET_HONEY = true,
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Rare Summer Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Enchanted Seed Pack", "Pet Shard Glimmering", "Mutation Spray Glimmering", "Glimmering Radar" },
     PLACE_COSMETIC = { "Cooking Kit" },
     
