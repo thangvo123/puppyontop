@@ -34,6 +34,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
 
+    EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
     EQUIP_PETS = { ["Glimmering Sprite"] = 5, ["Sunny-Side Chicken"] = 4, ["Rooster"] = 3 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
