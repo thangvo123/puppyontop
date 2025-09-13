@@ -30,7 +30,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { ["Grizzly Bear"] = 5, "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", "Luminous Sprite", "Wisp", "Drake", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Dilophosaurus", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", ["Seal"] = 8, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie", ["Capybara"] = 4, ["Starfish"] = 2, ["Rooster"] = 5, ["Sunny-Side Chicken"] = 5 },
+    KEEP_PETS = { "Wasp", ["Grizzly Bear"] = 5, "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", "Luminous Sprite", "Wisp", "Drake", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Dilophosaurus", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", ["Seal"] = 8, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie", ["Capybara"] = 4, ["Starfish"] = 2, ["Rooster"] = 5, ["Sunny-Side Chicken"] = 5 },
     KEEP_PETS_WEIGHT = 999,
     KEEP_PETS_AGE = 90,
 
