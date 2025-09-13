@@ -3,12 +3,10 @@ setfpscap(2)
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
+    CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Honey Sprinkler", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Enchanted Chest", "Enchanted Seed Pack", "Enchanted Egg", "Luminous Sprite", "Wisp", "Drake" },
-    MAX_EVENT_RESTOCK_SHECKLES = 656100001,
+    BUY_EVENT_SHOP = { "Marmot", "Fall Egg", "Sugar Glider", "Space Squirrel" },
     
-    CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
     
@@ -18,10 +16,12 @@ getgenv().gagConfig = {
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
     ADD_FRIEND = true,
-    OPEN_ALL_SEED_PACK = false,
+    OPEN_ALL_SEED_PACK = true,
+
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Egg", "Uncommon Egg" },
-    PLANT_EGGS = { "Anti Bee Egg", "Bug Egg", "Paradise Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg" },
+    PLANT_EGGS = { "Fall Egg", "Anti Bee Egg", "Bug Egg", "Paradise Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Enchanted Egg", },
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
     KEEP_SEEDS = {},
@@ -30,12 +30,11 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Luminous Sprite", "Wisp", "Drake", "Phoenix", ["Wasp"] = 2, ["Tarantula Hawk"] = 2, ["Glimmering Sprite"] = 8, "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Dilophosaurus", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", ["Seal"] = 8, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie", ["Capybara"] = 4, ["Starfish"] = 2, ["Rooster"] = 5, ["Sunny-Side Chicken"] = 5 },
-    KEEP_PETS_WEIGHT = 6,
+    KEEP_PETS = { ["Grizzly Bear"] = 5, "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", "Luminous Sprite", "Wisp", "Drake", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Dilophosaurus", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", ["Seal"] = 8, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie", ["Capybara"] = 4, ["Starfish"] = 2, ["Rooster"] = 5, ["Sunny-Side Chicken"] = 5 },
+    KEEP_PETS_WEIGHT = 999,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
-    EQUIP_PETS = { ["Glimmering Sprite"] = 5, ["Sunny-Side Chicken"] = 4, ["Rooster"] = 3 },
+    EQUIP_PETS = { ["Grizzly Bear"] = 5, ["Sunny-Side Chicken"] = 5, ["Rooster"] = 4 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
@@ -44,8 +43,8 @@ getgenv().gagConfig = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1410023595769597952/vhk1InegAZsuWg7idgXU_VPn2idl72BSlyWfDjFH_4G2AFt8xB69tcvOLpvXBWHnz30f",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1410023595769597952/vhk1InegAZsuWg7idgXU_VPn2idl72BSlyWfDjFH_4G2AFt8xB69tcvOLpvXBWHnz30f", 
-    NOTIFY_PETS = { "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex" },
-    NOTIFY_PETS_WEIGHT = 6,
+    NOTIFY_PETS = { "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex" },
+    NOTIFY_PETS_WEIGHT = 999,
     DISCORD_ID = "",
     WEBHOOK_NOTE = "puppy",
     SHOW_WEBHOOK_USERNAME = true,
