@@ -10,7 +10,7 @@ getgenv().gagConfig = {
     
     MAX_PLANTS = 200,
     DESTROY_UNTIL_MIN_PLANTS = 150,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple", "Burning Bud", "Romanesco", "Sugar Apple", "Giant Pinecone", "Elder Strawberry", "Beanstalk" },
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple", "Burning Bud", "Romanesco", "Sugar Apple", "Giant Pinecone", "Elder Strawberry", "Beanstalk", "Ember Lily", "Pepper", "Spirit Flower", "Cacao", "Grape", "Mangosteen", "Aetherfruit", "Mushroom" },
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
