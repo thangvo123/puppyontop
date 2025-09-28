@@ -10,7 +10,7 @@ getgenv().gagConfig = {
     
     MAX_PLANTS = 200,
     DESTROY_UNTIL_MIN_PLANTS = 150,
-    DELETE_PLANTS_AFTER_MAX = { "Daffodil", "Duskpuff", "Dragon Fruit", "Watermelon","Emerald Bud", "Lightshoot", "Corn", "Cactus", "Bamboo", "Orange Tulip", "Glowthorn", "Briar Rose", "Mango", "Pyracantha", "Wispwing", "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple", "Burning Bud", "Romanesco", "Sugar Apple", "Giant Pinecone", "Elder Strawberry", "Beanstalk", "Ember Lily", "Pepper", "Spirit Flower", "Cacao", "Grape", "Mangosteen", "Aetherfruit", "Mushroom" },
+    DELETE_PLANTS_AFTER_MAX = { "Loquat", "Pitcher Plant", "Aurora Vine", "Sunbulb", "Pumpkin", "Coconut", "Flare Daisy", "Poseidon Plant", "Daffodil", "Duskpuff", "Dragon Fruit", "Watermelon","Emerald Bud", "Lightshoot", "Corn", "Cactus", "Bamboo", "Orange Tulip", "Glowthorn", "Briar Rose", "Mango", "Pyracantha", "Wispwing", "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple", "Burning Bud", "Romanesco", "Sugar Apple", "Giant Pinecone", "Elder Strawberry", "Beanstalk", "Ember Lily", "Pepper", "Spirit Flower", "Cacao", "Grape", "Mangosteen", "Aetherfruit", "Mushroom" },
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
