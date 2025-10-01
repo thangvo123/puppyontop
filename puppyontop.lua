@@ -6,11 +6,9 @@ getgenv().gagConfig = {
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Honey Sprinkler", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I" },
-    MAX_EVENT_RESTOCK_SHECKLES = 48000001,
     
-    MAX_PLANTS = 200,
-    DESTROY_UNTIL_MIN_PLANTS = 150,
-    DELETE_PLANTS_AFTER_MAX = { "Loquat", "Pitcher Plant", "Aurora Vine", "Sunbulb", "Pumpkin", "Coconut", "Flare Daisy", "Poseidon Plant", "Daffodil", "Duskpuff", "Dragon Fruit", "Watermelon","Emerald Bud", "Lightshoot", "Corn", "Cactus", "Bamboo", "Orange Tulip", "Glowthorn", "Briar Rose", "Mango", "Pyracantha", "Wispwing", "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple", "Burning Bud", "Romanesco", "Sugar Apple", "Giant Pinecone", "Elder Strawberry", "Beanstalk", "Ember Lily", "Pepper", "Spirit Flower", "Cacao", "Grape", "Mangosteen", "Aetherfruit", "Mushroom" },
+    MAX_PLANTS = 50,
+    DESTROY_UNTIL_MIN_PLANTS = 40,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
@@ -41,8 +39,6 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = 90,
 
     EQUIP_PETS = { ["Wasp"] = 1, ["Rooster"] = 7 },
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10, "Cleaning Spray", "Watering Can" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler", "Mutation Spray Glimmering", "Honey Sprinkler" },
