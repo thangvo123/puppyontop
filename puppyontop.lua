@@ -34,7 +34,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Tiger", ["Wasp"] = 6, "Red Panda", "Swan", "Drake", "Phoenix", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Dilophosaurus", "Mizuchi", "Kitsune", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Chicken Zombie", ["Capybara"] = 4, ["Rooster"] = 7 },
+    KEEP_PETS = { "Chubby Chipmunk", "Tiger", ["Wasp"] = 6, "Red Panda", "Swan", "Drake", "Phoenix", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Dilophosaurus", "Mizuchi", "Kitsune", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Chicken Zombie", ["Capybara"] = 4, ["Rooster"] = 7 },
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
 
