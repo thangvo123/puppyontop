@@ -5,12 +5,11 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Honey Sprinkler", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I" },
     
-    MAX_PLANTS = 50,
-    DESTROY_UNTIL_MIN_PLANTS = 40,
+    MAX_PLANTS = 100,
+    DESTROY_UNTIL_MIN_PLANTS = 80,
     KEEP_SEEDS = { "Bone Blossom" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
     
     PLACE_COSMETIC = { "Cooking Kit" },
     
@@ -27,18 +26,18 @@ getgenv().gagConfig = {
     BUY_EGGS = { "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Rare Egg" },
     PLANT_EGGS = { "Anti Bee Egg", "Jungle Egg", "Bug Egg", "Fall Egg", "Paradise Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Enchanted Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg" },
     
-    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
     KEEP_SEEDS = {},
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
     
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Chubby Chipmunk", "Tiger", ["Wasp"] = 6, "Red Panda", "Swan", "Drake", "Phoenix", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Dilophosaurus", "Mizuchi", "Kitsune", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Chicken Zombie", ["Capybara"] = 4, ["Rooster"] = 7 },
+    KEEP_PETS = { "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk", "Tiger", ["Wasp"] = 6, "Red Panda", "Swan", "Drake", "Phoenix", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Dilophosaurus", "Mizuchi", "Kitsune", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Chicken Zombie", ["Capybara"] = 4, ["Rooster"] = 7 },
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Wasp"] = 1, ["Rooster"] = 7 },
+    EQUIP_PETS = { ["Chubby Chipmunk"] = 1, ["Rooster"] = 7 },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10, "Cleaning Spray", "Watering Can" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler", "Mutation Spray Glimmering", "Honey Sprinkler" },
